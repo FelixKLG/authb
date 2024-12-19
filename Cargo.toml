@@ -1,0 +1,13 @@
+[package]
+name = "authb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+async-trait = "0.1.83"
+axum = "0.7.9"
+jsonwebtoken = "9.3.0"
+serde = { version = "1.0.216", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["rt-multi-thread", "macros"] }
+tower-cookies = "0.10.0"
